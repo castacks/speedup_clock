@@ -1,0 +1,5 @@
+<launch>
+    <node name="speed_clock_node" pkg="speedup_clock" type="speedclock.py" 
+        output="screen" respawn="true">    
+    </node>
+</launch>
